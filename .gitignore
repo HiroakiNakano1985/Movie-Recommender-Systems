@@ -16,6 +16,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Microsoft Office temporary lock files (created while a .docx/.pptx is open)
+~$*
+
 # --- MovieLens data (NOT redistributable — download separately) ---
 # GroupLens does not permit redistribution of the dataset, so the raw files are
 # kept out of the repo. See data/raw/README.md for how to fetch them.
