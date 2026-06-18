@@ -1,5 +1,5 @@
 # Individual Recommender Systems Assignment - Placeholder Template
-https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app/
+https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app/ 
 This template provides the project structure and placeholder Python files for the individual assignment.
 
 ## Project goal
