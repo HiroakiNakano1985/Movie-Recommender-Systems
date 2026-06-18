@@ -225,14 +225,7 @@ with tab_eval:
                      width="stretch")
 
     st.divider()
-    figs = [
-        ("accuracy_vs_coverage.png", "Accuracy vs. coverage trade-off"),
-        ("accuracy_comparison.png", "Ranking accuracy by method"),
-        ("novelty_diversity.png", "Novelty & diversity"),
-        ("rating_prediction.png", "Rating-prediction error"),
-    ]
-    fcols = st.columns(2)
-    for idx, (fname, caption) in enumerate(figs):
-        fpath = FIG_DIR / fname
-        if fpath.exists():
-            fcols[idx % 2].image(str(fpath), caption=caption, width="stretch")
+    fig_path = FIG_DIR / "accuracy_vs_coverage.png"
+    if fig_path.exists():
+        _, mid, _ = st.columns([1, 3, 1])
+        mid.image(str(fig_path), caption="Accuracy vs. coverage trade-off", width="stretch")
