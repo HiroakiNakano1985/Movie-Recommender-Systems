@@ -1,4 +1,4 @@
-# Individual Recommender Systems Assignment - Placeholder Template
+# Individual Recommender Systems 
 
 **🎬 Live demo:** https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app
 
