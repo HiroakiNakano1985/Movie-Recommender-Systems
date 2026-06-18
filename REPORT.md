@@ -4,6 +4,8 @@
 **Course:** Recommender Systems — Prof. Marc Torrens, Esade
 **Date:** June 2026
 **Track:** Movies — MovieLens Latest Small
+**Live demo:** https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app
+**Code:** https://github.com/HiroakiNakano1985/Movie-Recommender-Systems
 
 ---
 
@@ -300,6 +302,9 @@ is not enough" — its replacements are not neutral either.
 ---
 
 ### Appendix — How to reproduce
+
+**Live demo:** https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app
+(no setup needed — the deployed app loads pre-trained models).
 
 ```bash
 pip install -r requirements.txt

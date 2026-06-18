@@ -84,6 +84,10 @@ title = doc.add_heading("Movie Recommender Systems — Individual Project Report
 para("Author: Hiroaki Nakano", bold=True)
 para("Course: Recommender Systems — Prof. Marc Torrens, Esade")
 para("Date: June 2026   |   Track: Movies — MovieLens Latest Small")
+p = para("Live demo: ", bold=True)
+p.add_run("https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app").font.color.rgb = ACCENT
+p2 = para("Code: ", bold=True)
+p2.add_run("https://github.com/HiroakiNakano1985/Movie-Recommender-Systems").font.color.rgb = ACCENT
 
 # ===== 1. Introduction =====
 doc.add_heading("1. Introduction", level=1)
@@ -336,6 +340,8 @@ para(
 
 # ===== Appendix =====
 doc.add_heading("Appendix — How to reproduce", level=1)
+pd_ = para("Live demo (no setup needed): ", bold=True)
+pd_.add_run("https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app").font.color.rgb = ACCENT
 code = doc.add_paragraph()
 code.add_run(
     "pip install -r requirements.txt\n"

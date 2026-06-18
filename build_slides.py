@@ -122,11 +122,12 @@ p = tf.paragraphs[0]; p.text = "Movie Recommender Systems"
 p.font.size = Pt(46); p.font.bold = True; p.font.color.rgb = WHITE
 p = tf.add_paragraph(); p.text = "Building & comparing a recommender prototype — Individual Project"
 p.font.size = Pt(24); p.font.color.rgb = RGBColor(0x9C, 0xB6, 0xE8)
-tf = add_box(s, Inches(0.95), Inches(5.0), Inches(11.5), Inches(1.6))
+tf = add_box(s, Inches(0.95), Inches(5.0), Inches(11.5), Inches(2.0))
 for i, (txt, sz) in enumerate([
     ("Recommender Systems — Prof. Marc Torrens, Esade", 18),
     ("Hiroaki Nakano", 18),
     ("June 2026", 14),
+    ("Live demo: https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app", 14),
 ]):
     p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
     p.text = txt; p.font.size = Pt(sz)
@@ -349,8 +350,9 @@ bullets(tf, [
     ("The full metrics table and comparison figures, in-app.", 1),
     ("Engineering", 0, True, ACCENT),
     ("Models pre-trained via build_artifacts.py and cached → instant, responsive UX.", 1),
-    ("Run:  python build_artifacts.py    →    streamlit run app.py", 0, True, GREY),
-], size=18, space=8)
+    ("Live app:  https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app", 0, True, ACCENT),
+    ("Run locally:  python build_artifacts.py  →  streamlit run app.py", 0, True, GREY),
+], size=17, space=8)
 
 # ============================================================ 14. FINAL REMARKS
 s = add_slide(); set_bg(s, WHITE); title_bar(s, "Final Remarks & Future Work")
