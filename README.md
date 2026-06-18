@@ -1,4 +1,4 @@
-# Individual Recommender Systems 
+# Movie Recommender Systems - Individual Assignment 
 
 **🎬 Live demo:** https://movie-recommender-systems-bgvfxcjsf7myfvfxjyircb.streamlit.app
 
