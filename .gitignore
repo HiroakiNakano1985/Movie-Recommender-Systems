@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- MovieLens data (NOT redistributable — download separately) ---
+# GroupLens does not permit redistribution of the dataset, so the raw files are
+# kept out of the repo. See data/raw/README.md for how to fetch them.
+# The Streamlit app does NOT need these (it loads results/artifacts.joblib).
+data/raw/*.csv
+data/raw/*.zip
+data/raw/ml-latest-small/
+data/processed/*
+
+# Keep folder placeholders / instructions
+!data/raw/README.md
+!data/processed/README.md
+
+# NOTE: results/ IS committed on purpose — results/artifacts.joblib (~8 MB),
+# results/figures/*.png and results/metrics.csv are required by the deployed app.
